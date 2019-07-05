@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_nyp3.m4</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>m4</name>
+        <script><![CDATA[var m4 = Class.create();
+m4.prototype = {
+    initialize: function() {
+    },
+
+    type: 'm4'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-05 20:37:49</sys_created_on>
+        <sys_id>24feb8d077223300ec23b5b26810618b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>m4</sys_name>
+        <sys_package display_value="nyp3" source="sn_nyp3">18ca781077223300ec23b5b2681061a4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="nyp3">18ca781077223300ec23b5b2681061a4</sys_scope>
+        <sys_update_name>sys_script_include_24feb8d077223300ec23b5b26810618b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-05 20:37:49</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="nyp3">18ca781077223300ec23b5b2681061a4</application>
+        <file_path/>
+        <instance_id>newyork8080</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_include_24feb8d077223300ec23b5b26810618b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_nyp3.m4&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;m4&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var m4 = Class.create();
+m4.prototype = {
+    initialize: function() {
+    },
+
+    type: 'm4'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-07-05 20:37:49&lt;/sys_created_on&gt;&lt;sys_id&gt;24feb8d077223300ec23b5b26810618b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;m4&lt;/sys_name&gt;&lt;sys_package display_value="nyp3" source="sn_nyp3"&gt;18ca781077223300ec23b5b2681061a4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="nyp3"&gt;18ca781077223300ec23b5b2681061a4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_24feb8d077223300ec23b5b26810618b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-07-05 20:37:49&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-345980383</payload_hash>
+        <record_name>m4</record_name>
+        <reverted_from/>
+        <source>b8ca345077223300ec23b5b2681061f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-05 20:37:49</sys_created_on>
+        <sys_id>91fe70d077223300ec23b5b268106181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bc3db7c960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-05 20:37:49</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d9fe70d0b32233002ae2291b9ec5d980</update_guid>
+        <update_guid_history>d9fe70d0b32233002ae2291b9ec5d980:-345980383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-05 20:37:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>907031cc831242d7aa32fe683a0d6de1</sys_id>
+        <sys_metadata>24feb8d077223300ec23b5b26810618b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>m4</sys_name>
+        <sys_package display_value="nyp3" source="sn_nyp3">18ca781077223300ec23b5b2681061a4</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="nyp3">18ca781077223300ec23b5b2681061a4</sys_scope>
+        <sys_scope_delete display_value="">6c76f1d418a343008e31ad195eda9000</sys_scope_delete>
+        <sys_update_name>sys_script_include_24feb8d077223300ec23b5b26810618b</sys_update_name>
+        <sys_update_version display_value="sys_script_include_24feb8d077223300ec23b5b26810618b">91fe70d077223300ec23b5b268106181</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-05 20:37:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
